@@ -1,49 +1,50 @@
 # ☁️ Cloud Migration Planner: 
-## Discription
+ Discription
 
-A Python-based tool to help organizations **compare cloud service providers** (AWS, Azure, GCP) based on key service-level metrics like compute cost, storage cost, latency, and availability. This helps in making informed decisions when planning cloud migration. 🚀
-## 🎯 Objective
+  A Python-based tool to help organizations **compare cloud service providers** (AWS, Azure, GCP) based on key service-level metrics like compute cost, storage cost, latency, and availability. This helps in        making informed decisions when planning cloud migration. 🚀
+🎯 Objective
 
-- Provide a **decision-making tool** for choosing the best cloud provider.
-- Compare providers based on **cost, performance, and availability**.
-- Help organizations **plan efficient cloud migration** strategies.
+ - Provide a **decision-making tool** for choosing the best cloud provider.
+ - Compare providers based on **cost, performance, and availability**.
+ - Help organizations **plan efficient cloud migration** strategies.
 
-## 📝 Features
+📝 Features
 
-- Compare multiple cloud providers side by side
-- Calculate weighted scores based on **user-defined priorities**
-- Rank providers based on overall performance
-- Export results to CSV for reporting
+ - Compare multiple cloud providers side by side
+ - Calculate weighted scores based on **user-defined priorities**
+ - Rank providers based on overall performance
+ - Export results to CSV for reporting
 
 ---
 
-## ⚙️ Technologies Used
+⚙️ Technologies Used
 
-- Python 3.x 🐍
-- Pandas library for data handling 📊
+ - Python 3.x 🐍
+ - Pandas library for data handling 📊
 
-## ⚙️ Setup & Initialization
+⚙️ Setup & Initialization
 
-1️⃣ Clone the repository
-```bash
-git clone https://github.com/yourusername/cloud-migration-planner.git
-cd cloud-migration-planner
-2️⃣ Install dependencies
-bash
-Copy code
-pip install pandas
-3️⃣ Run the planner
-bash
-Copy code
-python cloud_migration_planner.py
-4️⃣ View results
+  1️⃣ Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/cloud-migration-planner.git
+   cd cloud-migration-planner
+ 2️⃣ Install dependencies
+   bash
+   Copy code
+   pip install pandas
+ 3️⃣ Run the planner
+   bash
+   Copy code
+   python cloud_migration_planner.py
+ 4️⃣ View results
 
-Ranked cloud providers appear in the terminal
+   Ranked cloud providers appear in the terminal
 
-Results are saved to cloud_service_comparison.csv
-## 📊 How It Works
+   Results are saved to cloud_service_comparison.csv
 
-1. Define cloud service providers and their metrics:
+📊 How It Works
+
+ 1. Define cloud service providers and their metrics:
 
 | Provider | Compute ($/hr) | Storage ($/GB/mo) | Latency (ms) | Availability (%) |
 |----------|----------------|------------------|--------------|----------------|
@@ -63,7 +64,8 @@ Results are saved to cloud_service_comparison.csv
 3.The tool calculates normalized scores and total weighted scores for each provider.
 
 4.Providers are ranked according to their Total Score.
-## 🗂️ Project Structure
+
+ 🗂️ Project Structure
 
 cloud-migration-planner/
 │
@@ -71,26 +73,28 @@ cloud-migration-planner/
 ├── cloud_service_comparison.csv # Output CSV (generated)
 ├── README.md # Project documentation
 └── requirements.txt # Dependencies (pandas)
-## 🔮 Future Scope
 
- -Integrate real-time pricing APIs from AWS, Azure, and GCP
+🔮 Future Scope
 
- -Include security, compliance, and scalability metrics
+   -Integrate real-time pricing APIs from AWS, Azure, and GCP
 
- -Develop a web interface or GUI for interactive usage
+   -Include security, compliance, and scalability metrics
 
- -Add multi-cloud migration recommendations based on workload type
- ## 📚 References
+   -Develop a web interface or GUI for interactive usage
 
- -AWS Pricing
+   -Add multi-cloud migration recommendations based on workload type
 
- -Azure Pricing
+📚 References
 
- -Google Cloud Pricing
+   -AWS Pricing
 
- -Python Pandas Documentation: https://pandas.pydata.org/
+   -Azure Pricing
 
-## 🛠️ License
+   -Google Cloud Pricing
 
-This project is MIT Licensed. Feel free to modify and use for educational purposes. 😎
+   -Python Pandas Documentation: https://pandas.pydata.org/
+
+🛠️ License
+
+  This project is MIT Licensed. Feel free to modify and use for educational purposes. 😎
 
