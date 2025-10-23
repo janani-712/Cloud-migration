@@ -24,26 +24,27 @@
 
 ## ⚙️ Setup & Initialization
 
-     1️⃣ Clone the repository
-      ```bash
-      git clone https://github.com/yourusername/cloud-migration-planner.git
-      cd cloud-migration-planner
-    2️⃣ Install dependencies
-     bash
-     Copy code
-     pip install pandas
-   3️⃣ Run the planner
-     bash
-     Copy code
-     python cloud_migration_planner.py
-   4️⃣ View results
+       1️⃣ Clone the repository
+       ```bash
+       git clone https://github.com/yourusername/cloud-migration-planner.git
+       cd cloud-migration-planner
+       2️⃣ Install dependencies
+       bash
+       Copy code
+       pip install pandas
+       3️⃣ Run the planner
+       bash
+       Copy code
+       python cloud_migration_planner.py
+     -----
+      4️⃣ View results
 
-    Ranked cloud providers appear in the terminal
+       Ranked cloud providers appear in the terminal
 
-    Results are saved to cloud_service_comparison.csv
+       Results are saved to cloud_service_comparison.csv
     -------
 
-📊 How It Works
+## 📊 How It Works
 
  1. Define cloud service providers and their metrics:
 
@@ -66,7 +67,7 @@
 
 4.Providers are ranked according to their Total Score.
 
- 🗂️ Project Structure
+## 🗂️ Project Structure
 
 cloud-migration-planner/
 │
@@ -75,7 +76,7 @@ cloud-migration-planner/
 ├── README.md # Project documentation
 └── requirements.txt # Dependencies (pandas)
 
-🔮 Future Scope
+## 🔮 Future Scope
 
    -Integrate real-time pricing APIs from AWS, Azure, and GCP
 
@@ -85,7 +86,7 @@ cloud-migration-planner/
 
    -Add multi-cloud migration recommendations based on workload type
 
-📚 References
+## 📚 References
 
    -AWS Pricing
 
@@ -95,7 +96,7 @@ cloud-migration-planner/
 
    -Python Pandas Documentation: https://pandas.pydata.org/
 
-🛠️ License
+## 🛠️ License
 
   This project is MIT Licensed. Feel free to modify and use for educational purposes. 😎
 
