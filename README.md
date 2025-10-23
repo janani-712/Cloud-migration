@@ -1,14 +1,14 @@
 # ☁️ Cloud Migration Planner: 
- Discription
+## Discription
 
   A Python-based tool to help organizations **compare cloud service providers** (AWS, Azure, GCP) based on key service-level metrics like compute cost, storage cost, latency, and availability. This helps in        making informed decisions when planning cloud migration. 🚀
-🎯 Objective
+## 🎯 Objective
 
  - Provide a **decision-making tool** for choosing the best cloud provider.
  - Compare providers based on **cost, performance, and availability**.
  - Help organizations **plan efficient cloud migration** strategies.
 
-📝 Features
+## 📝 Features
 
  - Compare multiple cloud providers side by side
  - Calculate weighted scores based on **user-defined priorities**
@@ -17,30 +17,31 @@
 
 ---
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
 
  - Python 3.x 🐍
  - Pandas library for data handling 📊
 
-⚙️ Setup & Initialization
+## ⚙️ Setup & Initialization
 
-  1️⃣ Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/cloud-migration-planner.git
-   cd cloud-migration-planner
- 2️⃣ Install dependencies
-   bash
-   Copy code
-   pip install pandas
- 3️⃣ Run the planner
-   bash
-   Copy code
-   python cloud_migration_planner.py
- 4️⃣ View results
+     1️⃣ Clone the repository
+      ```bash
+      git clone https://github.com/yourusername/cloud-migration-planner.git
+      cd cloud-migration-planner
+    2️⃣ Install dependencies
+     bash
+     Copy code
+     pip install pandas
+   3️⃣ Run the planner
+     bash
+     Copy code
+     python cloud_migration_planner.py
+   4️⃣ View results
 
-   Ranked cloud providers appear in the terminal
+    Ranked cloud providers appear in the terminal
 
-   Results are saved to cloud_service_comparison.csv
+    Results are saved to cloud_service_comparison.csv
+    -------
 
 📊 How It Works
 
